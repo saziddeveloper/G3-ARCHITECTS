@@ -2,7 +2,37 @@
         Start Shared CSS 
 ------------------------------*/
 
-
+body {
+        margin: 0;
+        font-family: "Work Sans", sans-serif;
+}
+.btn {
+        color: #FFFFFF;
+        background-color: #FF900E;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 20px;
+}
+.section-title {
+        color: #131313;
+        font-weight: 700;
+        font-size: 45px;
+        margin-bottom: 20px;
+}
+.section-decription {
+        color: #727272;
+        margin-bottom: 20px;
+        text-align: center;
+}
+.dark-color {
+        font-size: 20px;
+        font-weight: 500;
+        color: #131313;
+}
+.gray-color {
+        color: #727272;
+}
 
 /*------------------------------
         End Shared CSS 
