@@ -243,7 +243,22 @@ nav ul a:hover {
     margin-top: 10px;
 }
 /* article-4 */
-
+#article-4 {
+    max-width: 1060px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin: 100px auto;
+}
+#article-4 section:first-child {
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+#article-4 section:last-child {
+    display: flex;
+    justify-content: space-between;
+}
 
 /*------------------------------------
         End Main Section CSS 
@@ -260,7 +275,21 @@ nav ul a:hover {
         Start Footer Section CSS 
 -------------------------------------*/
 
-
+footer {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    margin-bottom: 40px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+#footer-description {
+    color: #424242;
+}
 
 /*------------------------------------
         End Footer Section CSS 
@@ -305,6 +334,9 @@ nav ul a:hover {
     .quick-list-images {
         width: 170px;
         margin: 0 auto;
+    }
+    #article-1 #quick-list-image-2 {
+        margin-left: 5px;
     }
     #quick-list-title, #feature-section-title {
         margin-top: 0;
@@ -366,6 +398,24 @@ nav ul a:hover {
     .fact-small-container-description {
         font-size: 15px;
         margin-bottom: 5px;
+    }
+    /*---- section-4  ----*/
+    #article-4 {
+        padding: 10px;
+    }
+    #article-4 section:first-child {
+        width: 350px;
+    }
+    #article-4 section:last-child {
+        display: grid;
+        grid-template-columns: auto auto;
+        .item {
+            grid-column: 1 / span 2;
+        }
+        text-align: center;
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 30px;
     }
 }
 
