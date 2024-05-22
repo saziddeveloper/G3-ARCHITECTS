@@ -11,7 +11,7 @@ body {
         background-color: #FF900E;
         border-radius: 5px;
         border: 0;
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 500;
         padding: 10px 20px;
         margin-bottom: 35px;
@@ -24,7 +24,7 @@ body {
 }
 .section-description {
         color: #727272;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
         text-align: center;
 }
 .dark-color {
@@ -106,7 +106,7 @@ nav ul a:hover {
         Start Main Section CSS 
 -------------------------------------*/
 
-/*----- article-1  -------*/
+/*------ article-1  -------*/
 #article-1 {
     max-width: 940px;
     margin: 70px auto;
@@ -134,7 +134,70 @@ nav ul a:hover {
 }
 #article-1 #aside-2 p {
     text-align: start;
+    font-size: 11px;
 }
+/*------ article-2  -------*/
+#article-2 {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+}
+/* aside-1 */
+#article-2 #aside-1 div:first-child {
+    border-left: 3px solid #FF900E;
+}
+#article-2 #feature-section-title {
+    margin-left: 15px;
+    font-size: 30px;
+}
+#article-2 #aside-1 > p {
+    text-align: start;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.feature-sub-section {
+    padding: 20px;
+    box-shadow: 0.1px 0.1px 20px 0px #eeecec;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.section-sub-title {
+    margin: 0 0 0 0;
+    font-size: 16px;
+}
+.section-sub-description {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+/* aside-2 */
+#article-2 #aside-2 img {
+    width: 510px;
+}
+#large-btn {
+    width: 150px;
+    height: 115px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 5px 25px;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    bottom: 85px;
+    right: 45px;
+}
+#large-btn h2 {
+    margin: 23px 0 3px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+#large-btn p {
+    margin: 0 0 0 0;
+    text-align: center;
+    font-size: 13px;
+}
+/*------ article-3  -------*/
 
 
 /*------------------------------------
@@ -185,7 +248,7 @@ nav ul a:hover {
     nav ul li {
         padding: 0;
     }
-    /*----- article-1----- */
+    /*----- article-1 ----- */
     #article-1 {
         padding: 10px;
         flex-direction: column;
@@ -198,7 +261,41 @@ nav ul a:hover {
         width: 170px;
         margin: 0 auto;
     }
-    /*----- article-2----- */
+    #quick-list-title, #feature-section-title {
+        margin-top: 0;
+    }
+    #article-1 #aside-2 {
+        margin-bottom: -240px;
+    }
+    /*----- article-2 ----- */
+    #article-2 {
+        flex-direction: column-reverse;
+        padding: 10px;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    #aside-2 {
+        height: 450px;
+    }
+    #article-2 #aside-2 img {
+        width: 300px;
+        padding-left: 50px;
+    }
+    #large-btn {
+        width: 100px;
+        height: 75px;
+        position: relative;
+        bottom: 55px;
+        right: 4px;
+    }
+    #large-btn h2 {
+        margin: 10px 0 3px 0;
+        font-size: 27px;
+    }
+    #large-btn p {
+        font-size: 11px;
+    }
+    /*----- article-3 ----- */
 }
 
 /*------------------------------------
