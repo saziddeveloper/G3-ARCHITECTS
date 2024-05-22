@@ -9,18 +9,20 @@ body {
 .btn {
         color: #FFFFFF;
         background-color: #FF900E;
-        border-radius: 8px;
+        border-radius: 5px;
+        border: 0;
         font-size: 20px;
         font-weight: 500;
         padding: 10px 20px;
+        margin-bottom: 35px;
 }
 .section-title {
         color: #131313;
         font-weight: 700;
-        font-size: 45px;
+        font-size: 35px;
         margin-bottom: 20px;
 }
-.section-decription {
+.section-description {
         color: #727272;
         margin-bottom: 20px;
         text-align: center;
@@ -48,8 +50,46 @@ body {
 /*-------------------------------------
         Start Header Section CSS 
 -------------------------------------*/
-
-
+header {
+    padding: 10px 150px;
+    background-color: #ff8f0e10;
+}
+/*----- nav-bar ------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding: 0 20px;
+}
+nav ul a {
+    text-decoration: none;
+}
+nav ul a:hover {
+    text-decoration: underline;
+}
+/* banner CSS */
+#banner section {
+    max-width: 860px;
+    margin: 0 auto;
+}
+#banner-title {
+    font-size: 45px;
+    text-align: center;
+}
+#banner-btn {
+    display: flex;
+    justify-content: center;
+}
+#banner-image {
+    width: 100%;
+    margin-bottom: 25px;
+}
 
 /*------------------------------------
         End Header Section CSS 
@@ -100,7 +140,25 @@ body {
         Start  Media-QUERY CSS 
 -------------------------------------*/
 
+@media only screen and (max-width: 720px) {
+    /*---- header section ----*/
+    header {
+        padding: 10px 10px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        padding: 0;
+        margin: 0;
+        gap: 35px;
+    }
+    nav ul li {
+        padding: 0;
+    }
+    /*----- section-1----- */
 
+}
 
 /*------------------------------------
         End  Media-QUERY CSS 
