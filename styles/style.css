@@ -479,17 +479,15 @@ footer {
         #article-4 {
                 padding: 0 10px;
         }
-        /* #article-4 section:last-child {
+       #article-4 section:last-child {
                 display: grid;
                 grid-template-columns: auto auto auto;
                 text-align: center;
-                justify-content: center;
-                column-gap: 60px;
                 row-gap: 50px;
         }
-        .item {
+        /*.item {
                 grid-column: 2 / span 3;
-        } */
+        }*/
 }
 
 /*-------------------------------------------
