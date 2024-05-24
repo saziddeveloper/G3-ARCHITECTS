@@ -438,12 +438,34 @@ footer {
 -------------------------------------------*/
 
 @media screen and (min-width: 721px) and (max-width: 1080px) {
-        /*---  header css  */
+        /*---  header css  ----*/
         nav {
-            margin: 0 -120px;
+                margin: 0 -120px;
         }
         nav h1 {
-            margin-top: 20px;
+                margin-top: 20px;
+        }
+        /*----  article-1  ----*/
+        #article-1 {
+                padding: 0 10px;
+        }
+        .quick-list-images {
+                width: 200px;
+        }
+        /*----  article-2  ----*/
+        #article-2 {
+                padding: 0 10px;
+                gap: 50px;
+        }
+        #article-2 #aside-2 img {
+                width: 380px;
+        }
+        #large-btn {
+                width: 140px;
+                height: 105px;
+                position: relative;
+                bottom: 68px;
+                right: 40px;
         }
 }
 
