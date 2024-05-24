@@ -481,9 +481,14 @@ footer {
         }
        #article-4 section:last-child {
                 display: grid;
-                grid-template-areas:
-                    'sponserImage sponserImage sponserImage'
-                    'sponserImage sponserImage';
+                grid-template-columns: auto auto;
+                .item {
+                    grid-column: 1 / span 2;
+                }
+                text-align: center;
+                justify-content: center;
+                column-gap: 20px;
+                row-gap: 30px;
         }
 }
 
