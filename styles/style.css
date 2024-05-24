@@ -486,10 +486,10 @@ footer {
                 justify-content: center;
                 column-gap: 60px;
                 row-gap: 50px;
-        }
-        /*.item {
+               .span-item {
                 grid-column: 2 / span 3;
-        }*/
+                }
+        }
 }
 
 /*-------------------------------------------
