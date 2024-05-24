@@ -483,6 +483,8 @@ footer {
                 display: grid;
                 grid-template-columns: auto auto auto;
                 text-align: center;
+                justify-content: center;
+                column-gap: 60px;
                 row-gap: 50px;
         }
         /*.item {
