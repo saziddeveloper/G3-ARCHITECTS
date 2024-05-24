@@ -459,13 +459,33 @@ footer {
         }
         #article-2 #aside-2 img {
                 width: 380px;
+                position: relative;
+                top: 16%;
         }
         #large-btn {
                 width: 140px;
                 height: 105px;
                 position: relative;
-                bottom: 68px;
+                bottom: -65px;
                 right: 40px;
+        }
+        
+        /*----  article-3  ----*/
+        #article-3 {
+                padding: 0 10px;
+        }
+        
+         /*----  article-4  ----*/
+        #article-4 {
+                padding: 0 10px;
+        }
+        #article-4 section:last-child {
+                display: grid;
+                grid-template-columns: auto auto;
+                text-align: center;
+                justify-content: center;
+                column-gap: 20px;
+                row-gap: 30px;
         }
 }
 
