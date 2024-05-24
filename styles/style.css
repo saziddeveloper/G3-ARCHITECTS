@@ -482,8 +482,8 @@ footer {
        #article-4 section:last-child {
                 display: grid;
                 grid-template-areas:
-                    'sponser-content1 sponser-content sponser-content'
-                    'sponser-content sponser-content';
+                    'sponserImage sponserImage sponserImage'
+                    'sponserImage sponserImage';
         }
 }
 
